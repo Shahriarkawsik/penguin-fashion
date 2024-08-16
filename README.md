@@ -1,3 +1,3 @@
 # penguin-fashion
 
-# live link ☞
+# live link ☞ https://shahriarkawsik.github.io/penguin-fashion

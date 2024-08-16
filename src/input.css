@@ -1,4 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@layer components {
+  .navItems {
+    @apply text-navColor font-medium text-base h-6;
+  }
+  .title {
+    @apply font-normal uppercase font-BebasNeue text-titleColor;
+  }
+  .button {
+    @apply py-5 px-8 rounded-xl bg-custom-gradient uppercase font-bold text-[#fff] my-6;
+  }
+  .subtitle {
+    @apply h-6 font-Roboto font-normal text-subtitleColor my-3;
+  }
+  .cardtitle {
+    @apply font-Roboto font-bold text-2xl text-subtitleColor my-3;
+  }
+  .price {
+    @apply font-Roboto font-extrabold text-4xl text-spanColor;
+  }
+}
